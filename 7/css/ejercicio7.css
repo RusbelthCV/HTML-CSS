@@ -1,0 +1,105 @@
+*
+{
+    padding: 0;
+    margin:0;
+}
+/*ETIQUETAS*/
+p
+{
+    color: skyblue;
+}
+table
+{
+    margin-top: 4vh;
+    margin-left:17vw;
+    margin-bottom:4vh;
+}
+thead > tr:first-child > td
+{
+    background-color: skyblue;
+}
+table > tbody > tr:first-child > td
+{
+    border-bottom: 2px solid skyblue;
+    border-collapse: collapse;
+}
+tbody > tr > td
+{
+    color:skyblue;
+}
+td
+{
+    border-collapse: collapse;
+}
+tbody > tr > td:first-child, td:nth-child(2)
+{
+    width: 29vw;
+}
+tbody > tr > td:last-child
+{
+    width: 6vw;
+}
+th
+{
+    text-align: right;
+    color: darkblue;
+}
+table + span
+{
+    color: skyblue;
+    margin-left: 17vw;
+}
+tbody > tr:last-child > td,th
+{
+    border-bottom:4px solid skyblue;
+}
+/*FIN ETIQUETAS*/
+/*CONTENEDORES*/
+.detalles
+{
+    display: flex;
+    flex-direction: column;
+    color: skyblue;
+    align-items: flex-end;
+    margin-top:4vh;
+    margin-bottom:4vh;
+    margin-right: 20vw;
+}
+.header
+{
+    display: flex;
+    justify-content: space-around;
+}
+.datos
+{
+    display: inline-flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.cliente
+{
+    display: flex;
+    flex-direction: column;
+    margin-top:2vh;
+    border-left: 3px solid skyblue;
+    border-right: 3px solid skyblue;
+    padding: 0 5vw;
+    height: 20vh;
+}
+/*FIN CONTENEDORES*/
+.detalles > span:first-child
+{
+    border-bottom: 2px solid skyblue;
+    width: 15vw;
+    padding-bottom: 10px;
+    margin-bottom: 1vh;
+}
+.datos > img
+{
+    height: auto;
+    width: 10vw;
+}
+.right
+{
+    text-align: right;
+}
