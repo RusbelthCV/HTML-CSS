@@ -1,0 +1,24 @@
+*
+{
+    padding: 0;
+    margin:0;
+}
+#container
+{
+    display: flex;
+    flex-direction: column;
+}
+.firstParaph > p > span:first-child > span:first-child
+{
+    color:red;
+    font-size: 3.2em;
+}
+.firstParaph > p
+{
+    font-family: 'Oldenburg', cursive;
+    font-size: 3em;
+}
+.firstParaph > p > span:first-child
+{
+    color:red;
+}

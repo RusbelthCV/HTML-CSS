@@ -1,0 +1,44 @@
+.d-inline-flex > img
+{
+    height: auto;
+    width: 4vw;
+}
+.d-inline-flex > img:last-child
+{
+    margin-left: 500px;
+}
+ul > li
+{
+    margin:10px;
+}
+.row:nth-child(2) > div:first-child > p:first-child
+{
+    position: relative;
+    top: 100px;
+    left: 450px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.banner
+{
+    width: 100%;
+    overflow-y: hidden;
+    height: 200px;
+}
+.row:nth-child(3)
+{
+    justify-content: center
+}
+.row:nth-child(4) > div:last-child > p:first-child,.row:nth-child(5) > div:last-child > p:first-child 
+{
+   color:red;
+}   
+.row:nth-child(4) > div:last-child > p:last-child,.row:nth-child(5) > div:last-child > p:last-child
+{
+    color:blue;
+}
+.row:nth-child(4)
+{
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}

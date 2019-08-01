@@ -1,0 +1,31 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+p
+{
+    color:white;
+}
+@media only screen and (max-width: 799px)
+{
+    body
+    {
+        background-color: red;
+    }
+    p:last-child
+    {
+        display: none;
+    }
+}
+@media only screen and (min-width:800px)
+{
+    body
+    {
+        background-color: green;
+    }
+    p:first-child
+    {
+        display: none;
+    }
+}

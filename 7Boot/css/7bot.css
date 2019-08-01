@@ -1,0 +1,17 @@
+h3,p,span, tbody > tr > td
+{
+    color:skyblue;
+}
+tbody > tr > th
+{
+    color:darkblue;
+}
+.border-bottomB
+{
+    border-bottom: 1px solid skyblue;
+}
+.delfin
+{
+    width:15vw;
+    height: auto;
+}
